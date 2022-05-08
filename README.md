@@ -32,3 +32,6 @@ yarn create next-app --example blog my-blog
 ```
 
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+
+## Netlify Deployment Status:
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f7e83387-7445-4a6c-8bca-41aa87554f79/deploy-status)](https://app.netlify.com/sites/thesgj/deploys)
