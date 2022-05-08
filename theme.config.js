@@ -4,7 +4,7 @@ export default {
   footer: (
     <small style={{ display: 'block', marginTop: '8rem' }}>
       <time>{YEAR}</time> © TheSGJ.
-      <a href="/feed.xml">RSS</a>
+      <a href="/feed.xml">![Rss](https://img.shields.io/badge/rss-F88900?style=for-the-badge&logo=rss&logoColor=white)</a>
       <style jsx>{`
         a {
           float: right;
