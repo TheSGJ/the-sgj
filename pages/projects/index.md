@@ -1,6 +1,6 @@
 ---
 type: posts
-title: Progects
+title: Projects
 date: 2022-05-12
 ---
 
