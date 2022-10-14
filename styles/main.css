@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @font-face {
   font-family: 'Inter var';
   font-style: normal;
@@ -59,7 +62,13 @@ img.next-image {
 .prose a {
   color: #0074de;
 }
-
+.fixed-tp-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
 .nav-line .nav-link {
   color: #69778c;
 }

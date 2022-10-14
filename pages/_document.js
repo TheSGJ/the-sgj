@@ -1,5 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document'
-
+import { Navbar } from '../components/Navbar'
 export default function Document() {
   const meta = {
     title: 'TheSGJ',
@@ -22,10 +22,13 @@ export default function Document() {
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
       </Head>
+
+      <Navbar />
       <body>
         <Main />
         <NextScript />
       </body>
+
     </Html>
   )
 }
