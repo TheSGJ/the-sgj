@@ -1,5 +1,6 @@
 import { Html, Head, Main, NextScript } from 'next/document'
 import { Navbar } from '../components/Navbar'
+import NextNProgress from 'nextjs-progressbar';
 export default function Document() {
   const meta = {
     title: 'TheSGJ',
@@ -22,10 +23,10 @@ export default function Document() {
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
       </Head>
-
       <Navbar />
       <body>
         <Main />
+      <NextNProgress />
         <NextScript />
       </body>
 

@@ -7,12 +7,17 @@
     "start": "next start"
   },
   "dependencies": {
+    "@formspree/react": "^2.4.1",
+    "flowbite": "^1.5.3",
+    "flowbite-react": "^0.3.2",
     "gray-matter": "^4.0.2",
     "next": "12.0.8",
+    "nextjs-progressbar": "^0.0.16",
     "nextra": "^2.0.0-beta.5",
     "nextra-theme-blog": "^2.0.0-beta.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-ripples": "^2.2.1",
     "rss": "^1.2.2"
   },
   "prettier": {
