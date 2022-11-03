@@ -10,7 +10,7 @@ export const Navbar = () => {
         <span className="flex items-center">
           <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
           <span className="flex items-center">
-          <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white"><Link href="/"><img src="/logo.png" className="mr-3 h-7 sm:h-9" alt="TheSGJ" /></Link></span>
+          <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white"><a href="/"><img src="/logo.png" className="mr-3 h-7 sm:h-9" alt="TheSGJ" /></a></span>
           </span>
           </span>
         </span>

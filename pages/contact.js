@@ -2,7 +2,7 @@ import { useForm, ValidationError } from "@formspree/react";
 import { Card, Toast } from "flowbite-react";
 import Head from "next/head";
 const contact = () => {
-    const [state, handleSubmit] = useForm("mvolykjd");
+    const [state, handleSubmit] = useForm("xwkzwzaj");
     if (state.succeeded) {
       return (
         <div className="grid place-items-center">
