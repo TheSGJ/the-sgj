@@ -23,7 +23,7 @@ export default function Nextra({ Component, pageProps }) {
         />
        
       </Head>
-     
+     <NextTopLoader showSpinner={false} color="red" />
       <Component {...pageProps} />
     </>
   )
